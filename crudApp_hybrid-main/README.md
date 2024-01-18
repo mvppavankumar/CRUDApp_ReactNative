@@ -1,4 +1,4 @@
-# crudApp_hybrid
+# CRUDApp_ReactNative
 
 You need to install expo client on your mobile first
 
