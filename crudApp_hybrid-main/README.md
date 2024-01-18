@@ -2,9 +2,7 @@
 
 You need to install expo client on your mobile first
 
-https://github.com/malikdesigner/crudApp_hybrid/assets/105503471/de106cb9-ef40-4e42-baaf-3ae31c67b8d7
-
-
+https://github.com/mvppavankumar/CRUDApp_ReactNative.git
 
 in client folder first install expo-client globally " npm install -g expo-cli "
 
