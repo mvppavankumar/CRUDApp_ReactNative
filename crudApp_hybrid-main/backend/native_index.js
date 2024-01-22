@@ -16,12 +16,12 @@ const db = mysql.createConnection({
     database: "crudhybridapp"
 });
 // app.use(cors({
-//     origin: ["http://192.168.100.121:3301"],
+//     origin: ["http://192.168.0.37:3301"],
 //     methods: ["POST", "GET"],
 //     credentials: true
 // }))
 const corsOptions = {
-    origin: 'http://192.168.100.122:3301',
+    origin: 'http://192.168.0.37:3301',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
@@ -34,7 +34,7 @@ app.use(cors(corsOptions)); db.connect((err) => {
     }
 });
 // app.use(cors({
-//     origin: ["http://192.168.100.118:3300"],
+//     origin: ["http://192.168.0.37:3300"],
 //     methods: ["POST", "GET"],
 //     credentials: true
 // }))
